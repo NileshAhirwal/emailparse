@@ -1,0 +1,203 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:EM-PAR-{#######}",
+ "creation": "2023-06-21 18:20:34.738025",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "title",
+  "to",
+  "from",
+  "client_name",
+  "designation",
+  "city",
+  "alternate_contact_number",
+  "email",
+  "preferred_deployment_type",
+  "reason_to_change",
+  "software_evaluated",
+  "preferred_time_to_call",
+  "email_body",
+  "column_break_5",
+  "mobile_no",
+  "client_requirement",
+  "no_of_usersemployees",
+  "address",
+  "company",
+  "company_description",
+  "implementation_time_frame",
+  "existing_software_name",
+  "preferred_mode_of_demo",
+  "preferred_location_of_vendor",
+  "about",
+  "website",
+  "nature_of_lead",
+  "lead_details"
+ ],
+ "fields": [
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title"
+  },
+  {
+   "fieldname": "to",
+   "fieldtype": "Data",
+   "label": "To"
+  },
+  {
+   "fieldname": "from",
+   "fieldtype": "Data",
+   "label": "From"
+  },
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Data",
+   "label": "Client Name"
+  },
+  {
+   "fieldname": "designation",
+   "fieldtype": "Data",
+   "label": "Designation"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "fieldname": "alternate_contact_number",
+   "fieldtype": "Data",
+   "label": "Alternate Contact Number"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "preferred_deployment_type",
+   "fieldtype": "Small Text",
+   "label": "Preferred Deployment type"
+  },
+  {
+   "fieldname": "reason_to_change",
+   "fieldtype": "Small Text",
+   "label": "Reason to change"
+  },
+  {
+   "fieldname": "software_evaluated",
+   "fieldtype": "Small Text",
+   "label": "Software evaluated"
+  },
+  {
+   "fieldname": "preferred_time_to_call",
+   "fieldtype": "Small Text",
+   "label": "Preferred time to call"
+  },
+  {
+   "fieldname": "email_body",
+   "fieldtype": "Text Editor",
+   "label": "Email Body"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mobile_no",
+   "fieldtype": "Data",
+   "label": "Mobile No"
+  },
+  {
+   "fieldname": "client_requirement",
+   "fieldtype": "Long Text",
+   "label": "Client requirement"
+  },
+  {
+   "fieldname": "no_of_usersemployees",
+   "fieldtype": "Data",
+   "label": "No of Users/employees"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Data",
+   "label": "Company"
+  },
+  {
+   "fieldname": "company_description",
+   "fieldtype": "Long Text",
+   "label": "Company Description"
+  },
+  {
+   "fieldname": "implementation_time_frame",
+   "fieldtype": "Small Text",
+   "label": "Implementation time frame"
+  },
+  {
+   "fieldname": "existing_software_name",
+   "fieldtype": "Small Text",
+   "label": "Existing Software Name"
+  },
+  {
+   "fieldname": "preferred_mode_of_demo",
+   "fieldtype": "Small Text",
+   "label": "Preferred mode of demo"
+  },
+  {
+   "fieldname": "preferred_location_of_vendor",
+   "fieldtype": "Small Text",
+   "label": "Preferred location of vendor"
+  },
+  {
+   "fieldname": "about",
+   "fieldtype": "Long Text",
+   "label": "About"
+  },
+  {
+   "fieldname": "website",
+   "fieldtype": "Data",
+   "label": "website"
+  },
+  {
+   "fieldname": "nature_of_lead",
+   "fieldtype": "Data",
+   "label": "Nature of Lead"
+  },
+  {
+   "fieldname": "lead_details",
+   "fieldtype": "Text Editor",
+   "label": "Lead Details"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-06-28 18:55:37.027122",
+ "modified_by": "Administrator",
+ "module": "Email Parse",
+ "name": "Email Parser",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
