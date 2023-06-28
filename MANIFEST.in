@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include emailparse *.css
+recursive-include emailparse *.csv
+recursive-include emailparse *.html
+recursive-include emailparse *.ico
+recursive-include emailparse *.js
+recursive-include emailparse *.json
+recursive-include emailparse *.md
+recursive-include emailparse *.png
+recursive-include emailparse *.py
+recursive-include emailparse *.svg
+recursive-include emailparse *.txt
+recursive-exclude emailparse *.pyc
